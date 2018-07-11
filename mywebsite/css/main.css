@@ -1,0 +1,182 @@
+
+body{
+    cursor: auto;
+    user-select: none;
+    font-family: 'Open Sans', sans-serif !important
+/*    font-family: 'Black Han Sans', sans-serif;*/
+/*    font-family: 'Gamja Flower', cursive;*/
+/*    font-family: 'Gravitas One', cursive;*/
+}
+.row{
+    padding: 10px;
+}
+/*1st section my name and background*/
+.joe{
+    color: aliceblue;
+    padding: 20px;
+    margin-top: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%), url(/img/1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 612px;
+}
+
+.joe>h3{
+    margin-right: 600px;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 65px;
+}
+
+.joe>h1{
+    margin-right: 400px;
+    margin-top: 10px;
+    font-size: -webkit-xxx-large;
+}
+
+.joe>p{
+    margin-right: 350px;
+    font-size: x-large;
+/*    font-family: 'Gravitas One', cursive;*/
+}
+
+.form-inline.center-block {
+    margin: 0 auto;
+    width: 500;
+}
+
+.input-group-btn {
+    padding-left: 5px;
+}
+
+
+
+/*education and experiences*/
+.mission.container-fluid{
+    background-color: #f6f6f6
+}
+
+#edu.container-fluid{
+    background-color: #f8f8f8;
+}
+
+.container-fluid{
+    padding: 60px 50px;
+    margin: auto 50;
+}
+
+
+
+/*media query*/
+@media screen and (max-width: 768px){
+    .col-sm-4{
+        text-align: center;
+        margin: 25px 0px;
+    }
+}
+
+
+
+/*logos*/
+i.fa.logo{
+    color: #d9534f;
+    font-size: 200px;
+}
+
+i.fa.smalllogo{
+    color: #d9534f;
+    font-size: 50px;
+}
+
+i{
+    color: #d9534f;
+}
+
+img.smalllogo {
+    width: 50px;
+}
+
+/*NAVBAR*/
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: darkred !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+nav.navbar.navbar-inverse.navbar-fixed-top{
+    background-color: black;
+}
+nav.navbar.navbar-inverse.navbar-fixed-top.scroll{
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+/*carousel*/
+
+.carousel-inner>.item>img {
+    line-height: 1;
+    width: 300;
+    margin: 0 auto;
+}
+
+/* contact*/
+
+textarea.form-control {
+    height: auto;
+    resize: none;
+    max-width: 100%;
+}
+
+.animateright{
+    animation: fadeInUp;
+    animation-duration: 0.8s;
+}
+.animateleft{
+    animation: fadeInUp;
+    animation-duration: 0.8s;
+}
+.animateflash{
+    animation: flash;
+    animation-duration: 0.8s;
+}
+.animatezoom{
+    animation: pulse;
+    animation-duration: 0.8s;
+}
+
+#edu, #exp{
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
